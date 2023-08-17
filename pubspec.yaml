@@ -1,0 +1,36 @@
+name: student
+description: A new Flutter project.
+publish_to: 'none'
+
+environment:
+  sdk: '>=3.0.6 <4.0.0'
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  ed_screen_recorder: ^0.0.13
+  path_provider: ^2.1.0
+  file_picker: ^5.3.3
+  video_player: ^2.7.0
+  file_manager: ^1.0.2
+  google_mlkit_text_recognition: ^0.10.0
+  permission_handler: ^10.4.3
+  video_thumbnail: ^0.5.3
+  flutter_tts: ^3.7.0
+  # intl: ^0.18.1
+  # picovoice_flutter: ^2.2.1
+  fluttertoast: ^8.2.2
+  provider: ^6.0.5
+  shared_preferences: ^2.2.0
+  flutter_colorpicker: ^1.0.3
+  alan_voice: ^4.3.0
+  # rhino_flutter: ^2.2.1
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/
