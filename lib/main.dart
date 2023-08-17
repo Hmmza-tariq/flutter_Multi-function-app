@@ -251,7 +251,7 @@ class _HomePageState extends State<HomePage> {
 
   _MyHomePageState() {
     AlanVoice.addButton(
-        "9ea1da0d1b1a3c12fd00186fb53201332e956eca572e1d8b807a3e2338fdd0dc/stage",
+        "deleted",
         buttonAlign: AlanVoice.BUTTON_ALIGN_RIGHT);
 
     AlanVoice.onCommand.add((command) => handleCommand(command.data));
